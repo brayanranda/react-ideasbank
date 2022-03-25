@@ -1,0 +1,34 @@
+.is-div {
+	background-color: var(--black);
+	border: 2px solid var(--yellow);
+	border-radius: 3px;
+	display: flex;
+}
+.is-div__lbl {
+	align-items: center;
+	display: flex;
+	width: 18rem;
+}
+.is-div__lbl i {
+	color: #ffffff;
+	margin-left: 10px;
+}
+.is-div__lbl--input {
+	background-color: var(--black);
+	padding: 0.5rem;
+	color: #ffffff;
+	outline: none;
+}
+
+.is-div__lbl--input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+.is-div > i {
+	align-items: center;
+	background-color: var(--yellow);
+	border-left: 2px solid var(--yellow);
+	display: flex;
+	justify-content: center;
+	height: 36px;
+	width: 36px;
+}
