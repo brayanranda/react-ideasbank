@@ -32,3 +32,45 @@
 	cursor: pointer;
 	font-weight: 600;
 }
+.menu-bar {
+	background-color: rgb(255, 255, 255, .5);
+	width: 35px;
+	height: 35px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 5px;
+}
+.line-bar {
+	display: flex;
+	width: 60%;
+	margin-bottom: 5px;
+	height: 3px;
+	background-color: white;
+}
+.line-bar:last-child {margin-bottom: 0;}
+
+.h__fig i{
+	font-size: 40px; 
+	color: white
+}
+.menu-bar {
+	display: none;
+}
+@media (max-width: 768px){
+	.h_menu {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.h__nav {width: 100%;}
+    .h__ul--li {
+		margin: 0;
+		border: 0;
+	}
+	.h__ul--li:hover {
+		background-color: var(--yellow);
+	}
+	.menu-bar { display: flex; }
+}

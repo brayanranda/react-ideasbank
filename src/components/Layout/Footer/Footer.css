@@ -35,7 +35,16 @@
     
 }
 @media (max-width: 725px) {
-    
+    .f__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .f__content--img {width: 120px; margin-bottom: 3rem;}
+    .f__div { align-items: center; }
+    .f__div--p {
+        font-size: 13px;
+        font-weight: normal !important;
+    }
 }
 @media (max-width: 425px) {
 
